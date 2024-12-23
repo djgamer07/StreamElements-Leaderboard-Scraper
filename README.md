@@ -30,6 +30,7 @@ This repository contains a Node.js script designed to scrape leaderboard data fr
 3. The extracted leaderboard data will be saved as `leaderboard.json` in the root directory.
 
 ## Notes
+- **Rename the generated `leaderboard.json` file to `usernames.json`. After that, you can use [Twitch-User-Points-Updater](https://github.com/djgamer07/Twitch-User-Points-Updater) to insert the Twitch ID, username, and points into your SQL database.**
 - Ensure the `tabSelector` and other DOM selectors match the structure of your StreamElements leaderboard page.
 - You may need to update the `aria-label` value for the pagination buttons if the structure changes.
 
@@ -67,5 +68,6 @@ Este repositório contém um script Node.js projetado para capturar dados do lea
 3. Os dados extraídos do leaderboard serão salvos no arquivo `leaderboard.json` no diretório raiz.
 
 ## Notas
+- **Altere o nome do ficheiro gerado `leaderboard.json` para `usernames.json`. Depois disso, pode usar o [Twitch-User-Points-Updater](https://github.com/djgamer07/Twitch-User-Points-Updater) para inserir o Twitch ID, nome de utilizador e os pontos na sua base de dados SQL.**
 - Certifique-se de que o `tabSelector` e outros seletores DOM correspondem à estrutura da página do leaderboard do StreamElements.
 - Pode ser necessário atualizar o valor de `aria-label` dos botões de paginação caso a estrutura da página mude.
